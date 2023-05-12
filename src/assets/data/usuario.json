@@ -1,0 +1,15 @@
+
+{
+  "id": 1,
+  "nombre": "Romi",
+  "apellido": "Celis",
+  "nombreCompleto": "Romina Celis",
+  "email": "rom-cel@live.com.ar",
+  "contraseña": "49481665tomas",
+  "fotoPerfil": "fotoPerfil.jpg",
+  "descripcion": "Soy creativa y super curiosa, me gusta saber como funciona todo,es emocionante ver evolucionar una idea pero puede ser aún más emocionante estar involucrada en ver cómo se diseña y desarrolla un concepto a través de la codificacion y poder ver el ciclo de vida completo desde la concepcion hasta el producto terminado",
+  "titulo1": "DESARROLLADORA WEB / FULL STACK.",
+  "linkedin": "https://www.linkedin.com/in/romi-celis-16940a244",
+  "twiter": "https://twitter.com/rominaacelis?ref_src=twsrc%5Etfw",
+  "urlcv": "https://docs.google.com/document/d/1JLE1FjQFpAdh2Gs5eKetAme2XnUc6G3uTWVoUGZ2Dy4/edit?usp=sharing"
+}
