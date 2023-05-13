@@ -1,7 +1,7 @@
 import { UsuarioService } from './../Servicio/usuario.service';
 import { Component, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
-
+import { tap } from 'rxjs/operators';
 
 
 @Component({
@@ -21,7 +21,7 @@ export class AuthFormComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 
 
