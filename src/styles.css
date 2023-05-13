@@ -685,31 +685,28 @@ header .icons a {
              inset -5px -5px 10px #ffffff73;
 }
 
-/* Estilos para dispositivos de pantalla grande */
-.container {
-  width: 960px;
-  margin: 0 auto;
+.seccion1,seccion2,seccion3 {
+  height: 100%;
 }
 
-/* Estilos para dispositivos de pantalla mediana */
-@media (max-width: 768px) {
-  .container {
-    width: 80%;
+@media (max-width: 767px) {
+
+  .seccion1,seccion2,seccion3 {
+    height: 300px;
   }
 }
 
-/* Estilos para dispositivos de pantalla pequeña */
-@media (max-width: 480px) {
-  .container {
-    width: 100%;
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .seccion1,seccion2,seccion3 {
+    height: 500px;
   }
 }
-html.fp-enabled,
-.fp-enabled body {
-    margin: 0;
-    padding: 0;
-    overflow:hidden;
 
-    /*Avoid flicker on slides transitions for mobile phones #336 */
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+/* Estilos adicionales para pantallas más grandes */
+@media (min-width: 1024px) {
+  .seccion1,seccion2,seccion3 {
+    height: 757px;
+  }
 }
+
