@@ -10,7 +10,7 @@ import { UsuarioService } from '../Servicio/usuario.service';
 })
 export class NuevoPortfolioComponent implements OnInit {
 
-    usuario: Usuario = { id: 0, nombreCompleto: '', nombre: '', email: '', contraseña: '', apellido: '', titulo: '', fotoPerfil: '', linkedin: '', twiter: '', urlcv: '', descripcion: '' };
+    usuario: any;
 
    /*probando para ver si toma el usuario
    usuario: Usuario = {
@@ -42,7 +42,7 @@ export class NuevoPortfolioComponent implements OnInit {
       this.usuario = data;
       console.log(this.usuario); // Verificar los datos en la consola
     });
-   
+
   }
 }
 
