@@ -709,4 +709,133 @@ header .icons a {
     height: 757px;
   }
 }
+@media screen and (max-width: 420px) {
+  html {
+      font-size:3.125vw
+  }
+}
 
+*,:after,:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+@media screen and (max-width: 420px) {
+  body {
+      font-size:1.2rem
+  }
+}
+@media screen and (max-width: 800px) {
+  .title {
+      margin-left:40px
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+      width:87.5%;
+      margin: 0 6.25%;
+      top: auto;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      bottom: 8rem
+  }
+}
+@media screen and (max-width: 420px) {
+  .scrollDown:after {
+      height:32px;
+      bottom: -40px
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .scrollDown {
+      left:auto;
+      right: 6.25%;
+      font-size: 1rem;
+      bottom: 40px
+  }
+}
+@media screen and (max-width: 420px) {
+  .heading--left {
+      margin-left:auto
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .heading {
+      padding-top:0;
+      margin-right: 0
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .heading {
+      font-size:2.4rem;
+      padding-top: 0.2rem
+  }
+}
+
+.heading-num {
+  font-size: 4rem;
+  color: #ff4d5a;
+  position: relative;
+  padding-left: 6.2rem;
+  padding-right: 3.2rem;
+  font-family: "Abril Fatface";
+  line-height: 1.1
+}
+@media screen and (max-width: 420px) {
+  header .name {
+      font-size:1.6rem
+  }
+}
+@media screen and (max-width: 420px) {
+  header .icons {
+      display:none
+  }
+}
+@media screen and (max-width: 800px) {
+  header .global-nav {
+      font-size:7.6rem
+  }
+}
+
+@media screen and (max-width: 420px) {
+  header .global-nav {
+      font-size:3.8rem;
+      text-shadow: 0 3px 20px rgba(2, 11, 22, 0.2)
+  }
+}
+@media screen and (max-width: 800px) {
+  .moon {
+      width:100vw;
+      height: 100vw;
+      left: 23%
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .moon {
+      width:165vw;
+      height: 165vw;
+      left: 50%;
+      top: -10rem;
+      bottom: auto;
+      -webkit-transform: translate3d(-50%, 0, 0);
+      transform: translate3d(-50%, 0, 0)
+  }
+}
+@media screen and (max-width: 800px) {
+  .image {
+      margin-right:40px
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .image {
+      width:80%;
+      height: 55.633%;
+      margin: 0 10%;
+      top: 9.859%
+  }
+}
