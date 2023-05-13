@@ -9,9 +9,9 @@ import { Router } from '@angular/router';
 })
 export class UsuarioService {
 
-  
+
   private usuarioActual: Usuario = { id: 0, nombreCompleto: '', nombre: '', email: '', contraseña: '', apellido: '', titulo: '', fotoPerfil: '', linkedin: '', twiter: '', urlcv: '', descripcion: '' };
-  
+
 
   private url = 'https://backend-apirest-v0ey.onrender.com';
 
@@ -43,13 +43,14 @@ export class UsuarioService {
 
   obtenerUsuario(): Observable<Usuario> {
     return this.http.get<Usuario>(`${this.url}/usuario`);
+    console.log('Datos del usuario:', this.usuarioActual);
   }
 
   guardarDatosEditados(usuario: Usuario): Observable<boolean> {
     const headers = new HttpHeaders({
       'Content-Type': 'application/json'
     });
-    
+
     return this.http.post<boolean>(`${this.url}/editar`, usuario, { headers });
   }
 }

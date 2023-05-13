@@ -10,7 +10,21 @@ import { UsuarioService } from '../Servicio/usuario.service';
 })
 export class NuevoPortfolioComponent implements OnInit {
 
-    usuario: any;
+  usuario: Usuario = {
+    id: 0,
+    nombreCompleto: '',
+    nombre: '',
+    email: '',
+    contraseña: '',
+    apellido: '',
+    titulo: '',
+    fotoPerfil: '',
+    linkedin: '',
+    twiter: '',
+    urlcv: '',
+    descripcion: ''
+  };
+
 
    /*probando para ver si toma el usuario
    usuario: Usuario = {
