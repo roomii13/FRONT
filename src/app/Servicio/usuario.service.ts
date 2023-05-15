@@ -42,8 +42,9 @@ export class UsuarioService {
   }
 
   obtenerUsuario(): Observable<Usuario> {
-    return this.http.get<Usuario>(`${this.url}/usuario`);
     console.log('Datos del usuario:', this.usuarioActual);
+    return this.http.get<Usuario>(`${this.url}/usuario`);
+    
   }
 
   guardarDatosEditados(usuario: Usuario): Observable<boolean> {
