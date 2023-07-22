@@ -129,7 +129,6 @@ body {
   line-height: 1;
   background-color:#828c96 ;
   font-size: 1.6rem;
-  text-size-adjust: 100%;
   overflow-x: hidden
 }
 
@@ -171,8 +170,7 @@ img {
   font-family: "futura_m";
   font-weight: normal;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
-  flex-wrap: wrap;
-  display: flex;
+ 
 }
 
 .title .border {
