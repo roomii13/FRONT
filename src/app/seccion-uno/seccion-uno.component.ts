@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-/*import { SkillComponent } from '../skill/skill.component';*/
 
 
 
@@ -10,10 +9,5 @@ import { Component } from '@angular/core';
 })
 export class SeccionUnoComponent {
 
-/*  constructor(private router: Router) {}
 
-  Skills() {
-    this.router.navigate(['app-skill']);
-  }*/
-  
 }

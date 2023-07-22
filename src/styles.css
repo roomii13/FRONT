@@ -1,5 +1,6 @@
 .section1{
   height: 757px;
+
 }
 
 /*para que el titulo quede del lado izquierdo y debajo de la barra superior*/
@@ -10,15 +11,17 @@
 
 .section2{
   height: 757px;
+
+
 }
 
 .section3{
-  height: 757px
+  height: 757px;
+
+
 }
 
-.section4{
-  height: 757px;
-}
+
 
 html {
   font-size: 62.5%;
@@ -155,7 +158,8 @@ img {
   top: 50%;
   transform: translate3d(0, -50%, 0);
   z-index: 200;
-  margin-left: 11%
+  margin-left: 11%;
+
 }
 
 
@@ -166,7 +170,9 @@ img {
   margin-bottom: 1.6rem;
   font-family: "futura_m";
   font-weight: normal;
-  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5)
+  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .title .border {
@@ -267,7 +273,8 @@ p {
   padding-left: 6.2rem;
   padding-right: 3.2rem;
   font-family: "Abril Fatface";
-  line-height: 1.1
+  line-height: 1.1,
+
 }
 
 .heading-num:after {
@@ -477,13 +484,16 @@ header .icons a {
   font-size: 15rem;
   color:  #ff4d5a;
   font-family: "Abril Fatface";
-  z-index: 200
+  z-index: 200;
+
 }
 
 
 .image .page-num p {
   line-height: 1.1;
-  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5)
+  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  flex-wrap: wrap;
+  display: flex;
 }
 
 
@@ -689,91 +699,18 @@ header .icons a {
   height: 100%;
 }
 
-@media (max-width: 767px) {
-
-  .seccion1,seccion2,seccion3 {
-    height: 300px;
-  }
-}
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
   .seccion1,seccion2,seccion3 {
     height: 500px;
+    display :flex;
+  flex-direction: column;
   }
 }
 
-/* Estilos adicionales para pantallas más grandes */
-@media (min-width: 1024px) {
-  .seccion1,seccion2,seccion3 {
-    height: 757px;
-  }
-}
-@media screen and (max-width: 420px) {
-  html {
-      font-size:3.125vw
-  }
-}
 
-*,:after,:before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box
-}
-@media screen and (max-width: 420px) {
-  body {
-      font-size:1.2rem
-  }
-}
-@media screen and (max-width: 800px) {
-  .title {
-      margin-left:40px
-  }
-}
 
-@media screen and (max-width: 420px) {
-  .title {
-      width:87.5%;
-      margin: 0 6.25%;
-      top: auto;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      bottom: 8rem
-  }
-}
-@media screen and (max-width: 420px) {
-  .scrollDown:after {
-      height:32px;
-      bottom: -40px
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .scrollDown {
-      left:auto;
-      right: 6.25%;
-      font-size: 1rem;
-      bottom: 40px
-  }
-}
-@media screen and (max-width: 420px) {
-  .heading--left {
-      margin-left:auto
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .heading {
-      padding-top:0;
-      margin-right: 0
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .heading {
-      font-size:2.4rem;
-      padding-top: 0.2rem
-  }
-}
 
 .heading-num {
   font-size: 4rem;
@@ -784,47 +721,7 @@ header .icons a {
   font-family: "Abril Fatface";
   line-height: 1.1
 }
-@media screen and (max-width: 420px) {
-  header .name {
-      font-size:1.6rem
-  }
-}
-@media screen and (max-width: 420px) {
-  header .icons {
-      display:none
-  }
-}
-@media screen and (max-width: 800px) {
-  header .global-nav {
-      font-size:7.6rem
-  }
-}
 
-@media screen and (max-width: 420px) {
-  header .global-nav {
-      font-size:3.8rem;
-      text-shadow: 0 3px 20px rgba(2, 11, 22, 0.2)
-  }
-}
-@media screen and (max-width: 800px) {
-  .moon {
-      width:100vw;
-      height: 100vw;
-      left: 23%
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .moon {
-      width:165vw;
-      height: 165vw;
-      left: 50%;
-      top: -10rem;
-      bottom: auto;
-      -webkit-transform: translate3d(-50%, 0, 0);
-      transform: translate3d(-50%, 0, 0)
-  }
-}
 @media screen and (max-width: 800px) {
   .image {
       margin-right:40px
@@ -839,3 +736,10 @@ header .icons a {
       top: 9.859%
   }
 }
+@media (max-width: 768px) {
+  .section1, .section2, .section3, .section4 {
+    height: auto;
+  }}
+
+
+

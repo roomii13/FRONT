@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { UsuarioService } from '../Servicio/usuario.service';
-import { Router } from '@angular/router';
+
 
 
 
@@ -11,6 +10,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./seccion-tres.component.css']
 })
 export class SeccionTresComponent {
- 
- 
+
+
 }
